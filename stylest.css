@@ -1,0 +1,153 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #335353;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.action_btn {
+    justify-content: left;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    justify-content: space-between;
+}
+
+.hero {
+    padding: 90px 20px;
+    text-align: center;
+    position: relative;
+    background: #335353;
+    color: white;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+  
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 700;
+    font-family: 'Great Vibes';
+}
+
+.hero h1 span {
+    font-family: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.hero p {
+    font-size:18px;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #222;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #fff;
+    border: 2px solid #335353;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    text-align: center;
+    margin: 10px;
+}
+
+.skill h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.skill p {
+    font-size: 24px;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 18px;
+    margin:   0 auto;
+    text-align: left;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+}
+
+
+
+footer {
+    background-color: #335353;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}

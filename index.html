@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylest.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+    
+            <ul> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="page2.html">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+               
+            </ul>
+    
+        </nav>
+      
+        <div class="hero">
+            <h1>Hello, I am <span>Bouaissaoui Sonia.</span></h1>
+            <p>Graphic Designer, Web Developer</p>
+            <a href="#projects" class="btn"  onclick="goTOPage()">Projects</a>
+            <script>
+                function goTOPage() {
+                    window.location.href = 'page2.html'
+                }
+                </script>
+            
+        </div>
+    </header>
+
+    <section id="about">
+        <h2>About me:</h2>
+        <p>I like creating a cool design project</p>
+        <p>Welcome to my portfolio! I'm <strong>Sonia</strong>, I'm a second year master's student in computer science, specializing in data engineering and web technologies.</p>
+    </section>
+
+    <section id="skills">
+        <h2>Skills:</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <h3>75%</h3>
+                <p>HTML</p>
+            </div>
+            <div class="skill">
+                <h3>63%</h3>
+                <p>CSS</p>
+            </div>
+            <div class="skill">
+                <h3>38%</h3>
+                <p>PHP</p>
+            </div>
+            <div class="skill">
+                <h3>50%</h3>
+                <p>JavaScript</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact me:</h2>
+        <form action="#" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your Name">
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your Email">
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" placeholder="Enter your Message"></textarea>
+            
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Bouaissaoui Sonia</p>
+    </footer>
+</body>
+</html>
